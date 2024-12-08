@@ -2,8 +2,8 @@ name: docker-build
 
 on:
   push:
-    #branches: ["Development"]
-    tags: ["v*.*.*"]
+    branches: ["main"]
+    #tags: ["v*.*.*"]
 
 
 env:
